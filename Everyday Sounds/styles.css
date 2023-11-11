@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Set background color to black */
+    font-family: 'Arvo', sans-serif;
+    color: white; /* Set text color to white */
+}
+
+.set {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sound-button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sound-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#hint {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 24px;
+}

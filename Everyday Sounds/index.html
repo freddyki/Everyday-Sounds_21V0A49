@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Everyday Sound Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 id="title">Guess the Everyday Sounds🔊</h1>
+    <div class="set">
+        <button class="sound-button door" data-key="87" data-sound="Door">w</button>
+        <button class="sound-button phone" data-key="65" data-sound="Phone">a</button>
+        <button class="sound-button car" data-key="83" data-sound="Car">s</button>
+        <button class="sound-button clock" data-key="68" data-sound="Clock">d</button>
+    </div>
+
+    <footer id="message">Click on the button or press the key to play the sound</footer>
+    <div id="hint"></div>
+    <div id="score">Score: 0</div>
+
+    <audio data-key="87" src="sounds/door.mp3"></audio>
+    <audio data-key="65" src="sounds/phone.mp3"></audio>
+    <audio data-key="83" src="sounds/car.mp3"></audio>
+    <audio data-key="68" src="sounds/clock.mp3"></audio>
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
